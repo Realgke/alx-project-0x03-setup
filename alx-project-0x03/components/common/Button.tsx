@@ -1,11 +1,13 @@
 // ## components/common/Button.tsx
 
-interface ButtonProps {
-  buttonLabel: string
-  buttonSize?: string
-  buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
-  action?: () => void
-}
+import { ButtonProps } from "@/interface";
+
+// interface ButtonProps {
+//   buttonLabel: string
+//   buttonSize?: string
+//   buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
+//   action?: () => void
+// }
 
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
